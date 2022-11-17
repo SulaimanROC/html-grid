@@ -1,0 +1,59 @@
+.wrapper {
+display: grid;
+grid-template-columns: 120px 120px 120px 120px;
+grid-template-rows: repeat(11, 35px);
+gap: 10px;
+width: 530px;
+margin: auto;
+}
+
+.box {
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+.box:hover {
+    background-color: orange;
+    border: 3px solid red;
+}
+
+.header {
+    background-color:  #9fa2b2;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+.div2 {
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+
+.div3 {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+
+.div4 {
+    grid-column: 3/4;
+    grid-row: 2/5;
+}
+
+.div6, .div7, .div8 {
+    grid-row: 5/8;
+}
+
+.div9, .div10, .div11 {
+    grid-row: 8/11;
+}
+
+.sidebar {
+    background-color: #a9b2a1;
+    grid-column: 4/5;
+    grid-row: 2/11;
+}
+
+.footer {
+    background-color: #505810;
+    grid-column: 1/5;
+    
+}
